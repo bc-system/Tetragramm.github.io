@@ -994,12 +994,12 @@ class EngineBuilder {
 class PulsejetBuilder {
     constructor() {
         this.EraTable = [
-            { name: "Pioneer", cost: 5, drag: 10, mass: 3, fuel: 4, vibe: 2.5, material: 2 },
-            { name: "WWI", cost: 5, drag: 25, mass: 4, fuel: 3, vibe: 3, material: 3 },
-            { name: "Roaring 20s", cost: 5, drag: 30, mass: 5, fuel: 2, vibe: 4, material: 9 },
-            { name: "Coming Storm", cost: 5, drag: 30, mass: 6, fuel: 2, vibe: 4, material: 9 },
-            { name: "WWII", cost: 5, drag: 40, mass: 8, fuel: 1, vibe: 5, material: 24 },
-            { name: "Last Hurrah", cost: 5, drag: 50, mass: 8, fuel: 0.7, vibe: 6, material: 50 },
+            { name: "Pioneer", cost: 5, drag: 10, mass: 3, fuel: 5, vibe: 2.5, material: 2 },
+            { name: "WWI", cost: 5, drag: 25, mass: 4, fuel: 4.5, vibe: 3, material: 3 },
+            { name: "Roaring 20s", cost: 5, drag: 30, mass: 5, fuel: 4, vibe: 4, material: 9 },
+            { name: "Coming Storm", cost: 5, drag: 30, mass: 6, fuel: 3.5, vibe: 4, material: 9 },
+            { name: "WWII", cost: 5, drag: 40, mass: 8, fuel: 3, vibe: 5, material: 24 },
+            { name: "Last Hurrah", cost: 5, drag: 50, mass: 8, fuel: 2.5, vibe: 6, material: 50 },
         ];
         this.ValveTable = [
             { name: "Valved", scale: 1, rumble: 1, designcost: 1, reliability: 1 },
@@ -3977,7 +3977,7 @@ class Propeller extends Part {
         }
         else if (this.etype == ENGINE_TYPE.PULSEJET) { //Pulsejet
             stats.pitchboost = 0.4;
-            stats.pitchspeed = 1.5;
+            stats.pitchspeed = 1.6;
         }
         else if (this.etype == ENGINE_TYPE.TURBOMACHINERY) { //Turbojets
             stats.pitchboost = 0.2;
