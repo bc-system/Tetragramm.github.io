@@ -11,7 +11,7 @@ const init = () => {
     var lang = sp.get("lang");
 
     // var jsons = ['/Helicopter/strings.json', '/Helicopter/parts.json', '/Helicopter/engines.json', '/Helicopter/weapons.json'];
-    var jsons = ['/PlaneBuilder/strings.json', '/PlaneBuilder/parts.json', '/PlaneBuilder/engines.json', '/PlaneBuilder/weapons.json'];
+    var jsons = ['/Tetragramm.github.io/PlaneBuilder/strings.json', '/Tetragramm.github.io/PlaneBuilder/parts.json', '/Tetragramm.github.io/PlaneBuilder/engines.json', '/Tetragramm.github.io/PlaneBuilder/weapons.json'];
     var proms = jsons.map(d => fetch(d));
     Promise.all(proms)
         .then(ps => Promise.all(ps.map(p => p.json())))
