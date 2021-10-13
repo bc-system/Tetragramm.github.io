@@ -740,7 +740,7 @@ class PulsejetBuilder {
             { name: "WWI", cost: 5, drag: 25, mass: 4, fuel: 3, vibe: 3, material: 3 },
             { name: "Roaring 20s", cost: 5, drag: 30, mass: 5, fuel: 2, vibe: 4, material: 9 },
             { name: "Coming Storm", cost: 5, drag: 30, mass: 6, fuel: 2, vibe: 4, material: 9 },
-            { name: "WWII", cost: 5, drag: 40, mass: 7, fuel: 1, vibe: 5, material: 24 },
+            { name: "WWII", cost: 5, drag: 40, mass: 9, fuel: 1, vibe: 5, material: 24 },
             { name: "Last Hurrah", cost: 5, drag: 50, mass: 8, fuel: 0.7, vibe: 6, material: 50 },
         ];
         this.ValveTable = [
