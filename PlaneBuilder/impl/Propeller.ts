@@ -148,8 +148,8 @@ class Propeller extends Part {
             stats = stats.Add(this.prop_list[this.idx_prop].stats.Multiply(this.num_propellers));
             stats = stats.Add(this.upg_list[this.idx_upg].stats.Multiply(this.num_propellers));
         } else if (this.etype == ENGINE_TYPE.PULSEJET) {//Pulsejet
-            stats.pitchboost = 0.6;
-            stats.pitchspeed = 1;
+            stats.pitchboost = 0.2;
+            stats.pitchspeed = 1.5;
         } else if (this.etype == ENGINE_TYPE.TURBOMACHINERY) {//Turbojets
             stats.pitchboost = 0.2;
             stats.pitchspeed = 1.3;
