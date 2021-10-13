@@ -3977,7 +3977,7 @@ class Propeller extends Part {
         }
         else if (this.etype == ENGINE_TYPE.PULSEJET) { //Pulsejet
             stats.pitchboost = 0.4;
-            stats.pitchspeed = 1.6;
+            stats.pitchspeed = 1.7;
         }
         else if (this.etype == ENGINE_TYPE.TURBOMACHINERY) { //Turbojets
             stats.pitchboost = 0.2;
