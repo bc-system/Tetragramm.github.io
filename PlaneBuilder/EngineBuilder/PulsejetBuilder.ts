@@ -45,6 +45,7 @@ class PulsejetBuilder {
     }
 
     private CalcMass() {
+        // Needs to generate more mass!
         return Math.floor(1.0e-6 + this.TempMass()) + 1;
     }
 
@@ -77,6 +78,7 @@ class PulsejetBuilder {
     }
 
     private CalcCost() {
+        // Needs to generate more cost
         var Era = this.EraTable[this.era_sel];
 
         return Math.floor(1.0e-6 + this.TempMass() * this.build_quality * Era.cost) + 1;
